@@ -1,0 +1,110 @@
+/* 
+04 css :: chris cote
+*/
+
+html {
+    margin: 0;
+	padding: 0;
+    height: 100%;
+}
+
+body {
+    background: url(../img/bg.gif) repeat;
+    margin: 0 0 30px 0;
+    border-top: 2px solid #cccccc;
+}
+
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    height: 30px;
+    background: #f0f0f0;
+    width: 100%;
+    border-top: 2px solid #cccccc;
+}
+
+.footer_text {
+    padding: 10px 0 0 40px;
+    font-family: Arial;
+    font-size: 12px;
+    color: #999999; 
+}
+
+.panel {
+    border-radius: 10px;
+    border: 2px solid #cccccc;
+    margin: 20px 0 0 0;
+}
+
+.panel p {
+    margin: 0;
+    padding: 10px 0;
+}
+
+.panel ul {
+    margin: 20px 0 20px 0;
+    list-style-type: none;
+}
+
+.panel li {
+    display: inline;
+}
+
+.crystals {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    margin: 20px 0;
+    
+}
+
+.crystal {
+    height: 150px;
+    width: 150px;
+}
+
+#target {
+    color: #286321;
+}
+
+#wins {
+    color: #333333;
+}
+
+#losses {
+    color: #666666;
+}
+
+.bg_0{
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/crystal_blue.png);
+    height: 150px;
+    width: 150px;
+}
+
+.bg_1{
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/crystal_green.png);
+    height: 150px;
+    width: 150px;
+}
+
+.bg_2{
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/crystal_orange.png);
+    height: 150px;
+    width: 150px;
+}
+
+.bg_3{
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/crystal_red.png);
+    height: 150px;
+    width: 150px;
+}
